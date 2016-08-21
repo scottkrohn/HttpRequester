@@ -49,6 +49,7 @@ namespace HttpRequester
 			try
 			{
 				WebRequest requestOne = WebRequest.Create(websiteOneUrl);
+				requestOne.Timeout = 60000;		// timeout after 60 seconds.
 				// Get the response, log the data and then discard the response at the end of the 'using' block.
 				using (HttpWebResponse responseOne = (HttpWebResponse)requestOne.GetResponse())
 				{
@@ -68,6 +69,7 @@ namespace HttpRequester
 				}
 
 				WebRequest requestTwo = WebRequest.Create(websiteTwoUrl);
+				requestTwo.Timeout = 60000;		// timeout after 60 seconds.
 				// Get the response, log the data and then discard the response at the end of the 'using' block.
 				using (HttpWebResponse responseTwo = (HttpWebResponse)requestTwo.GetResponse())
 				{
@@ -83,6 +85,26 @@ namespace HttpRequester
 					{
 						// Log the status code and response string on successful request.
 						Logger.WriteErrorLog("reponseTwo Success:\nStatus Code: " + responseTwo.StatusCode + ", " + responseTwo);
+					}
+				}
+
+				WebRequest requestThree= WebRequest.Create(websiteOneUrl);
+				requestThree.Timeout = 60000;		// timeout after 60 seconds.
+				// Get the response, log the data and then discard the response at the end of the 'using' block.
+				using (HttpWebResponse responseThree = (HttpWebResponse)requestThree.GetResponse())
+				{
+					if(responseThree == null)
+					{
+						Logger.WriteErrorLog("Error: responseThree is NULL");
+					}
+					else if (responseThree.StatusCode != HttpStatusCode.OK)
+					{
+						Logger.WriteErrorLog("Error: responseThree.StatusCode is not OK");
+					}
+					else
+					{
+						// Log the status code and response string on successful request.
+						Logger.WriteErrorLog("responseThree Success:\nStatus Code: " + responseThree.StatusCode + ", " + responseThree);
 					}
 				}
 

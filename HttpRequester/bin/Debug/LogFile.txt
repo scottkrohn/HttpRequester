@@ -1,43 +1,65 @@
-8/21/2016 7:37:53 AM: HttpRequester windows service started.
-8/21/2016 7:38:53 AM: Time elapsed event STARTED
-8/21/2016 7:38:53 AM: responseOne Success:
+8/21/2016 7:51:04 AM: HttpRequester windows service started.
+8/21/2016 7:52:04 AM: Time elapsed event STARTED
+8/21/2016 7:52:04 AM: responseOne Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:38:55 AM: reponseTwo Success:
+8/21/2016 7:52:04 AM: reponseTwo Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:38:55 AM: Time elapsed event COMPLETE
-8/21/2016 7:39:53 AM: Time elapsed event STARTED
-8/21/2016 7:39:53 AM: responseOne Success:
+8/21/2016 7:52:04 AM: responseThree Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:39:53 AM: reponseTwo Success:
+8/21/2016 7:52:04 AM: Time elapsed event COMPLETE
+8/21/2016 7:53:04 AM: Time elapsed event STARTED
+8/21/2016 7:53:04 AM: responseOne Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:39:53 AM: Time elapsed event COMPLETE
-8/21/2016 7:40:53 AM: Time elapsed event STARTED
-8/21/2016 7:40:53 AM: responseOne Success:
+8/21/2016 7:53:04 AM: reponseTwo Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:40:53 AM: reponseTwo Success:
+8/21/2016 7:53:04 AM: responseThree Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:40:53 AM: Time elapsed event COMPLETE
-8/21/2016 7:41:53 AM: Time elapsed event STARTED
-8/21/2016 7:41:53 AM: responseOne Success:
+8/21/2016 7:53:04 AM: Time elapsed event COMPLETE
+8/21/2016 7:54:04 AM: Time elapsed event STARTED
+8/21/2016 7:54:04 AM: responseOne Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:41:53 AM: reponseTwo Success:
+8/21/2016 7:54:04 AM: reponseTwo Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:41:53 AM: Time elapsed event COMPLETE
-8/21/2016 7:42:53 AM: Time elapsed event STARTED
-8/21/2016 7:42:53 AM: responseOne Success:
+8/21/2016 7:54:04 AM: responseThree Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:42:53 AM: reponseTwo Success:
+8/21/2016 7:54:04 AM: Time elapsed event COMPLETE
+8/21/2016 7:55:04 AM: Time elapsed event STARTED
+8/21/2016 7:55:04 AM: responseOne Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:42:53 AM: Time elapsed event COMPLETE
-8/21/2016 7:43:53 AM: Time elapsed event STARTED
-8/21/2016 7:43:53 AM: responseOne Success:
+8/21/2016 7:55:04 AM: reponseTwo Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:43:53 AM: reponseTwo Success:
+8/21/2016 7:55:04 AM: responseThree Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:43:53 AM: Time elapsed event COMPLETE
-8/21/2016 7:44:53 AM: Time elapsed event STARTED
-8/21/2016 7:44:53 AM: responseOne Success:
+8/21/2016 7:55:04 AM: Time elapsed event COMPLETE
+8/21/2016 7:56:04 AM: Time elapsed event STARTED
+8/21/2016 7:56:04 AM: responseOne Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:44:53 AM: reponseTwo Success:
+8/21/2016 7:56:04 AM: reponseTwo Success:
 Status Code: OK, System.Net.HttpWebResponse
-8/21/2016 7:44:53 AM: Time elapsed event COMPLETE
+8/21/2016 7:56:04 AM: responseThree Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:56:04 AM: Time elapsed event COMPLETE
+8/21/2016 7:57:04 AM: Time elapsed event STARTED
+8/21/2016 7:57:04 AM: responseOne Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:57:04 AM: reponseTwo Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:57:04 AM: responseThree Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:57:04 AM: Time elapsed event COMPLETE
+8/21/2016 7:58:04 AM: Time elapsed event STARTED
+8/21/2016 7:58:04 AM: responseOne Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:58:04 AM: reponseTwo Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:58:04 AM: responseThree Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:58:04 AM: Time elapsed event COMPLETE
+8/21/2016 7:59:04 AM: Time elapsed event STARTED
+8/21/2016 7:59:04 AM: responseOne Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:59:04 AM: reponseTwo Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:59:04 AM: responseThree Success:
+Status Code: OK, System.Net.HttpWebResponse
+8/21/2016 7:59:04 AM: Time elapsed event COMPLETE
