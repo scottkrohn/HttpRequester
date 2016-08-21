@@ -19,6 +19,7 @@ namespace HttpRequester
 		private string websiteOneUrl = "http://www.personalgradebook.com";
 		private string websiteTwoUrl = "http://www.personalgradebook.com/Account/Login";
 		private string websiteThreeUrl = "http://www.krohndesigns.com";
+		private int interval = 60000; // Interval set to 60 seconds.
 
 		public Requester()
 		{
@@ -28,7 +29,7 @@ namespace HttpRequester
 		protected override void OnStart(string[] args)
 		{
 			timerOne = new Timer();
-			timerOne.Interval = 60000;
+			timerOne.Interval = interval;
 			// Set the callback function for when the timer interval occurs.
 			timerOne.Elapsed += new System.Timers.ElapsedEventHandler(this.timerOneElapsedEvent);
 			timerOne.Enabled = true;
@@ -44,9 +45,11 @@ namespace HttpRequester
 		protected void timerOneElapsedEvent(object sender, ElapsedEventArgs eargs)
 		{
 			Logger.WriteErrorLog("Time elapsed event STARTED");
+			// Request the websites and log the results.
 			try
 			{
 				WebRequest requestOne = WebRequest.Create(websiteOneUrl);
+				// Get the response, log the data and then discard the response at the end of the 'using' block.
 				using (HttpWebResponse responseOne = (HttpWebResponse)requestOne.GetResponse())
 				{
 					if(responseOne == null)
@@ -59,9 +62,30 @@ namespace HttpRequester
 					}
 					else
 					{
-						Logger.WriteErrorLog("Success:\nStatus Code: " + responseOne.StatusCode + ", " + responseOne);
+						// Log the status code and response string on successful request.
+						Logger.WriteErrorLog("responseOne Success:\nStatus Code: " + responseOne.StatusCode + ", " + responseOne);
 					}
 				}
+
+				WebRequest requestTwo = WebRequest.Create(websiteTwoUrl);
+				// Get the response, log the data and then discard the response at the end of the 'using' block.
+				using (HttpWebResponse responseTwo = (HttpWebResponse)requestTwo.GetResponse())
+				{
+					if(responseTwo == null)
+					{
+						Logger.WriteErrorLog("Error: responseTwo is NULL");
+					}
+					else if (responseTwo.StatusCode != HttpStatusCode.OK)
+					{
+						Logger.WriteErrorLog("Error: responseTwo.StatusCode is not OK");
+					}
+					else
+					{
+						// Log the status code and response string on successful request.
+						Logger.WriteErrorLog("reponseTwo Success:\nStatus Code: " + responseTwo.StatusCode + ", " + responseTwo);
+					}
+				}
+
 				Logger.WriteErrorLog("Time elapsed event COMPLETE");
 			}
 			catch(Exception ex)

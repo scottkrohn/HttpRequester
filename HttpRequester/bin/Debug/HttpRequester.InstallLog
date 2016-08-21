@@ -33,3 +33,42 @@ Affected parameters are:
    logtoconsole = 
    logfile = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.InstallLog
    assemblypath = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe
+Uninstalling assembly 'C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.InstallLog
+   assemblypath = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe
+Removing EventLog source HttpRequester.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.InstallLog
+   assemblypath = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe
+Removing EventLog source HttpRequester.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.InstallLog
+   assemblypath = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe
+Removing EventLog source HttpRequester.
+Service HttpRequester is being removed from the system...
+Service HttpRequester was successfully removed from the system.
+Installing assembly 'C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.InstallLog
+   assemblypath = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe
+Installing service HttpRequester...
+Service HttpRequester has been successfully installed.
+Creating EventLog source HttpRequester in log Application...
+Committing assembly 'C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.InstallLog
+   assemblypath = C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe
