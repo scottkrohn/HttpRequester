@@ -1,0 +1,8 @@
+C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe.config
+C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.exe
+C:\Users\skroh\Desktop\HttpRequester\HttpRequester\bin\Debug\HttpRequester.pdb
+C:\Users\skroh\Desktop\HttpRequester\HttpRequester\obj\Debug\HttpRequester.csprojResolveAssemblyReference.cache
+C:\Users\skroh\Desktop\HttpRequester\HttpRequester\obj\Debug\HttpRequester.exe
+C:\Users\skroh\Desktop\HttpRequester\HttpRequester\obj\Debug\HttpRequester.pdb
+C:\Users\skroh\Desktop\HttpRequester\HttpRequester\obj\Debug\HttpRequester.ProjectInstaller.resources
+C:\Users\skroh\Desktop\HttpRequester\HttpRequester\obj\Debug\HttpRequester.csproj.GenerateResource.Cache
